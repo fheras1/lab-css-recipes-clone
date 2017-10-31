@@ -5,11 +5,18 @@ body {
     font-family: "open-sans";
 }
  .presentation{
-   padding-left: 0px;
-   padding-top: 0px;
-background-image: "./images/apple-pie.jpg";
+  padding-left: 0px;
+  padding-top: 0px;
+  background-image: "./images/apple-pie.jpg";
+  background-size: 100px;
+
 }
 h1 {
+  display: inline-block;
+  position: absolute;
+  top: 15em;
+  left: 15em;
+  color: #FFF;
   text-align: center;
   font-family: "open-sans";
   font-size: 40px;
@@ -24,6 +31,12 @@ p {
 margin:auto;
 position: relative;
 left: 20em;
+}
+
+hr {
+  align: center;
+  width: 100%;
+  color: #959591;
 }
 
 .ingredients {
