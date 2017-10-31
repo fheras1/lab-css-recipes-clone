@@ -1,3 +1,7 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
 * {
   font-family: "open-sans";
 }
@@ -9,7 +13,6 @@ body {
   padding-top: 0px;
   background-image: "./images/apple-pie.jpg";
   background-size: 100px;
-
 }
 h1 {
   display: inline-block;
@@ -18,35 +21,34 @@ h1 {
   left: 15em;
   color: #FFF;
   text-align: center;
-  font-family: "open-sans";
   font-size: 40px;
 }
 p {
   text-align: center;
-  font-family: "open-sans";
   font-size: 20px;
 }
 .images {
-  display:block;
+display:block;
 margin:auto;
 position: relative;
 left: 20em;
 }
 
 hr {
-  align: center;
-  width: 100%;
+  display: block;
+  position: relative;
+  height: 1px;
+  align: left;
+  width: 35em;
   color: #959591;
 }
 
 .ingredients {
   text-align: left;
-  font-family: "open-sans";
   font-size: 20px;
 }
 
 .directions {
   text-align: left;
-  font-family: "open-sans";
   font-size: 20px;
 }
